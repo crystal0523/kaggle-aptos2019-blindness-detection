@@ -6,7 +6,13 @@ The aptos2019 dataset includes 3662 training images and 1929 testing images. Sin
 ### Preprocessing
 We use Ben's preprocessing.(https://github.com/btgraham/SparseConvNet/tree/kaggle_Diabetic_Retinopathy_competition)
 ### Augmentation
+  ---
 
+  <p align="center">
+  <img src="augmentation.jpg">
+  </p>
+
+  ---
 ##  Train
 Use following commands to run ```train.pyˋˋˋ
 ˋˋˋ
