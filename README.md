@@ -15,6 +15,8 @@ We use Ben's preprocessing.(https://github.com/btgraham/SparseConvNet/tree/kaggl
   ---
 ##  Train
 Use following commands to run ```train.pyˋˋˋ
+
+
 ˋˋˋ
 python train.py --arch se_resnext50_32x4d
 python train.py --arch se_resnext101_32x4d --batch_size 24
