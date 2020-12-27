@@ -1,7 +1,9 @@
 # kaggle-aptos2019-blindness-detection
 Our task is APTOS 2019 Blindness Detection competition, the goal of this task is to detect 5 levels of eye illness, normal to severe from 0 to 4. 
+
 ## Dataset
-The aptos2019 dataset includes 3662 training images and 1929 testing images. Since the data distibution from level 0 to level 4 is unbalanced, so we also apply extra data which is given by 2015 Diabetic Retinopathy (resized) photos (38,770 training images)(https://www.kaggle.com/prasertsak/dr2015-resized)to improve the accuracy.
+The aptos2019 dataset includes 3662 training images and 1929 testing images. Since the data distibution from level 0 to level 4 is unbalanced, so we also apply extra data which is given by 2015 Diabetic Retinopathy (resized) photos (38,770 training images)(https://www.kaggle.com/prasertsak/dr2015-resized) to improve the accuracy.
+
 ##  Train
 Use following commands to run ```train.pyˋˋˋ
 ˋˋˋ
@@ -26,3 +28,8 @@ python train.py --arch senet15
 - 10 epochs
 - Dataset: 2019 train dataset (5-folds cv) + 2019 test dataset
 - Pseudo labels: weighted average of 1st-level models
+## Inference
+Run ```inference.py``` to get score on kaggle competition.
+
+## Results
+We got 0.924643 on private score , and 0.814114 on public score.
