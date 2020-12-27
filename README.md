@@ -1,10 +1,14 @@
 # kaggle-aptos2019-blindness-detection
-Our task is APTOS 2019 Blindness Detection competition, the goal of this task is to detect 5 levels of eye illness, normal to severe from 0 to 4. 
+Our task is [APTOS 2019 Blindness Detection competition](https://www.kaggle.com/c/aptos2019-blindness-detection/overview), the goal of this task is to detect 5 levels of eye illness, normal to severe from 0 to 4. 
 
 ## Dataset
-The aptos2019 dataset includes 3662 training images and 1929 testing images. Since the data distibution from level 0 to level 4 is unbalanced, so we also apply extra data which is given by 2015 Diabetic Retinopathy (resized) photos (38,770 training images) https://www.kaggle.com/prasertsak/dr2015-resized to improve the accuracy.
+The aptos2019 dataset includes 3662 training images and 1929 testing images. Since the data distibution from level 0 to level 4 is unbalanced, so we also apply extra data which is given by [2015 Diabetic Retinopathy](https://www.kaggle.com/prasertsak/dr2015-resized) (resized) photos (38,770 training images) to improve the accuracy.
 ### Preprocessing
-We use Ben's preprocessing https://github.com/btgraham/SparseConvNet/tree/kaggle_Diabetic_Retinopathy_competition
+We use [Ben's preprocessing](https://github.com/btgraham/SparseConvNet/tree/kaggle_Diabetic_Retinopathy_competition)
+Befor Ben's
+After applying Ben's.
+<img src="10_left.jpg">
+
 ### Augmentation
   ---
 
