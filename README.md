@@ -40,7 +40,7 @@ python train.py --arch senet15
 - Dataset: 2019 train dataset (5-folds cv) + 2019 test dataset
 - Pseudo labels: weighted average of 1st-level models
 ## Inference
-Run ```inference.py``` to get score on kaggle competition.
+Run ```inference.py``` to get score on kaggle competition, the pretrained weight of the model can be found at (https://drive.google.com/file/d/1xdoQg34Pb0HYznd3IcV77a1XJtuNHnME/view?usp=sharing)
 
 ## Results
 We got 0.924643 on private score , and 0.814114 on public score.
