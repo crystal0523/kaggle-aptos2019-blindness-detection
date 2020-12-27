@@ -29,7 +29,7 @@ After applying Ben's.
   ---
 
   <p align="center">
-  <img src="augmentation.jpg">
+  <img img width="250" height="150" src="augmentation.jpg">
   </p>
 
   ---
