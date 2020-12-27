@@ -33,3 +33,4 @@ Run ```inference.py``` to get score on kaggle competition.
 
 ## Results
 We got 0.924643 on private score , and 0.814114 on public score.
+<img src='result.jpg'>
