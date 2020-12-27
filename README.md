@@ -19,7 +19,7 @@ Use following commands to run ```train.py ```
 
   ```
 python train.py --arch se_resnext50_32x4d
-python train.py --arch se_resnext101_32x4d --batch_size 24
+python train.py --arch se_resnext101_32x4d 
 python train.py --arch senet15
   ```
 
