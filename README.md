@@ -42,14 +42,14 @@ python train.py --arch senet15
   ```
 
 
-### 1st-level models (run on local)
+### 1st-level models 
 - Models: SE-ResNeXt50_32x4d, SE-ResNeXt101_32x4d, SENet154
 - Loss: MSE
 - Optimizer: SGD (momentum=0.9)
 - LR scheduler: CosineAnnealingLR (lr=1e-3 -> 1e-5)
 - 30 epochs
 - Dataset: 2019 train dataset (5-folds cv) + 2015 dataset
-### 2nd-level models (run on kernel)
+### 2nd-level models 
 - Models: SE-ResNeXt50_32x4d, SE-ResNeXt101_32x4d (1st-level models' weights)
 - Loss: MSE
 - Optimizer: RAdam
