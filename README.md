@@ -5,10 +5,24 @@ Our task is [APTOS 2019 Blindness Detection competition](https://www.kaggle.com/
 The aptos2019 dataset includes 3662 training images and 1929 testing images. Since the data distibution from level 0 to level 4 is unbalanced, so we also apply extra data which is given by [2015 Diabetic Retinopathy](https://www.kaggle.com/prasertsak/dr2015-resized) (resized) photos (38,770 training images) to improve the accuracy.
 ### Preprocessing
 We use [Ben's preprocessing](https://github.com/btgraham/SparseConvNet/tree/kaggle_Diabetic_Retinopathy_competition)
+
 Befor Ben's
+
+---
+
 <img width="150" height="150" src="10_left_1.jpeg">
+---
+
+
 After applying Ben's.
+
+
+---
+
 <img width="150" height="150" src="10_left.jpeg">
+
+---
+
 
 ### Augmentation
   ---
