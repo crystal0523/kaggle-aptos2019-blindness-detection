@@ -2,9 +2,9 @@
 Our task is APTOS 2019 Blindness Detection competition, the goal of this task is to detect 5 levels of eye illness, normal to severe from 0 to 4. 
 
 ## Dataset
-The aptos2019 dataset includes 3662 training images and 1929 testing images. Since the data distibution from level 0 to level 4 is unbalanced, so we also apply extra data which is given by 2015 Diabetic Retinopathy (resized) photos (38,770 training images)(https://www.kaggle.com/prasertsak/dr2015-resized) to improve the accuracy.
+The aptos2019 dataset includes 3662 training images and 1929 testing images. Since the data distibution from level 0 to level 4 is unbalanced, so we also apply extra data which is given by 2015 Diabetic Retinopathy (resized) photos (38,770 training images) https://www.kaggle.com/prasertsak/dr2015-resized to improve the accuracy.
 ### Preprocessing
-We use Ben's preprocessing.(https://github.com/btgraham/SparseConvNet/tree/kaggle_Diabetic_Retinopathy_competition)
+We use Ben's preprocessing https://github.com/btgraham/SparseConvNet/tree/kaggle_Diabetic_Retinopathy_competition
 ### Augmentation
   ---
 
@@ -40,7 +40,7 @@ python train.py --arch senet15
 - Dataset: 2019 train dataset (5-folds cv) + 2019 test dataset
 - Pseudo labels: weighted average of 1st-level models
 ## Inference
-Run ```inference.py``` to get score on kaggle competition, the pretrained weight of the model can be found at (https://drive.google.com/file/d/1xdoQg34Pb0HYznd3IcV77a1XJtuNHnME/view?usp=sharing)
+Run ```inference.py``` to get score on kaggle competition, the pretrained weight of the model can be found at https://drive.google.com/file/d/1xdoQg34Pb0HYznd3IcV77a1XJtuNHnME/view?usp=sharing
 
 ## Results
 We got 0.924643 on private score , and 0.814114 on public score.
