@@ -28,9 +28,7 @@ After applying Ben's.
 ### Augmentation
   ---
 
-  <p align="center">
-  <img img width="350" height="200" src="augmentation.jpg">
-  </p>
+  <img img width="600" height="300" src="augmentation.jpg">
 
   ---
 ##  Train
